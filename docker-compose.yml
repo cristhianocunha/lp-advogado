@@ -1,16 +1,17 @@
 version: "3.8"
 services:
   app:
-    image: php:8.2-apache
-    container_name: php_app
+    image: php:8.0-apache
+    container_name: apache-sorteador
+    ports:
+      - "80:80"
+      - "443:443"
     volumes:
       - ./app:/var/www/html
       - ./php.ini:/usr/local/etc/php/php.ini
-    ports:
-      - "8080:80"
     depends_on:
       - db
-
+ 
   db:
     image: mysql:8.0
     container_name: mysql_db

@@ -1,7 +1,7 @@
 const arquivos = [
-    { name: "nav", file: "componentes/navbar.html" },
-    { name: "footer", file: "componentes/footer.html" },
-    { name: "banner", file: "componentes/banner.html" },
+    { name: "nav", file: "views/componentes/navbar.html" },
+    { name: "footer", file: "views/componentes/footer.html" },
+    { name: "banner", file: "views/componentes/banner.html" },
 
   ];
 
