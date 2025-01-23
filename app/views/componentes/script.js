@@ -1,7 +1,8 @@
 const arquivos = [
-    { name: "nav", file: "views/componentes/navbar.html" },
+    // { name: "nav", file: "views/componentes/navbar.html" },
     { name: "footer", file: "views/componentes/footer.html" },
     { name: "banner", file: "views/componentes/banner.html" },
+    { name: "session1", file: "views/componentes/session1.html" },
 
   ];
 
